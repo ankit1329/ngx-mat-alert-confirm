@@ -11,9 +11,6 @@ import {
   AlertSnackbarToasterComponent
 } from './alert-confirm/alert-snackbar-toaster/alert-snackbar-toaster.component';
 import {
-  BrowserModule
-} from '@angular/platform-browser';
-import {
   BrowserAnimationsModule
 } from '@angular/platform-browser/animations';
 import {
@@ -34,7 +31,6 @@ import {
 @NgModule({
   declarations: [NgxMatAlertConfirmComponent, AlertDialogueConfirmComponent, AlertSnackbarToasterComponent],
   imports: [
-    BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
     ReactiveFormsModule,
