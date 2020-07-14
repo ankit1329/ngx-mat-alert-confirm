@@ -18,7 +18,49 @@
     "zone.js": "~0.8.26"
 
   },
-  "dependencies":{
+  "dependencies": {
     "angular-animations": "0.0.10"
+  },
+  "description": "A highly customizable library for alerts and confirm messages using angular material components",
+  "keywords": [
+    "ng2",
+    "ngx",
+    "angular",
+    "angular 2",
+    "angular 7",
+    "material",
+    "mat",
+    "alert",
+    "toaster",
+    "toastr",
+    "toast",
+    "snackbar",
+    "notification",
+    "popup",
+    "confirm",
+    "modal",
+    "dialogue",
+    "dialog",
+    "prompt",
+    "box",
+    "alert box",
+    "confirm box",
+    "dialogue box",
+    "dialog box"
+  ],
+  "homepage": "https://ankit1329.github.io/ngx-mat-alert-confirm/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankit1329/ngx-mat-alert-confirm"
+  },
+  "bugs": {
+    "url": "https://github.com/ankit1329/ngx-mat-alert-confirm/issues",
+    "email": "ankit@discoverdollar.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Ankit",
+    "email": "ankit@discoverdollar.com",
+    "url": "https://www.linkedin.com/in/ankit1329/"
   }
 }

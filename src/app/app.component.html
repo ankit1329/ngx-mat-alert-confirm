@@ -1,18 +1,21 @@
-<div style="text-align:center">
-  <h3>
-    Welcome to {{ title }}!
-  </h3>
-  <img width="50" alt="Angular Logo"
-    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div style="text-align:center;height: 5vh;">
+  <b style="font-size: 24px;">
+    {{ title }}
+  </b>
 </div>
-<button mat-raised-button style="margin-left: 10px;" color="primary" (click)="openToaster()">toast</button>
-<button mat-raised-button style="margin-left: 10px;" color="primary" (click)="openConfirmDialogue()">confirm</button>
-<div style="position: absolute;right: 50px;font-size: 14px;">Example Code on <a style="color: blue;"
-    href="https://github.com/discoverdollartech/dd-ngx-alerts">Github</a></div>
+<div style="display: flex;height: 5vh;">
+  <span class="example-spacer"></span>
+  <button mat-raised-button style="width: 80px;" color="primary" (click)="openToaster()">Toast</button>
+  <button mat-raised-button style="width: 80px;margin-left: 10px;" color="primary"
+    (click)="openConfirmDialogue()">Confirm</button>
+  <span class="example-spacer"></span>
+  <div style="position: absolute;right: 50px;font-size: 14px;">Usage example on <a style="color: blue;" target="_blank"
+      href="https://github.com/ankit1329/ngx-mat-alert-confirm">Github</a></div>
+</div>
 <div style="display: flex;font-size: 14px;">
-  <div style="width: 30%;margin: 1%;">
-    <h3 style="width: 70%;">Toaster Config:</h3>
-    <mat-form-field class="example-full-width" appearance="outline">
+  <div style="width: 32%;margin: 0 1%; height: 89vh;overflow-y: auto;background-color: rgb(252, 252, 252);border-radius: 5px;padding: 0 20px;">
+    <h3 style="width: 70%;margin: 0;">Toaster Config:</h3>
+    <mat-form-field class="example-full-width">
       <input matInput type="text" placeholder="Title" [(ngModel)]="toasterConfig.title">
     </mat-form-field>
     <mat-form-field class="example-full-width">
@@ -98,8 +101,8 @@
       <mat-hint>'primary' | 'accent' | 'warn'</mat-hint>
     </mat-form-field>
   </div>
-  <div style="width: 30%;margin: 1%;">
-    <h3 style="width: 70%;">Confirm Config:</h3>
+  <div style="width: 32%;margin: 0 1%; height: 89vh;overflow-y: auto;background-color: rgb(252, 252, 252);border-radius: 5px;padding: 0 20px;">
+    <h3 style="width: 70%;margin: 0;">Confirm Config:</h3>
     <mat-form-field class="example-full-width">
       <input matInput type="text" placeholder="Title" [(ngModel)]="confirmConfig.title">
     </mat-form-field>
@@ -175,7 +178,9 @@
       </div>
     </div>
   </div>
-  <div style="width: 30;">
+  <div style="width: 30%;margin: 0 1%; height: 89vh;overflow-y: auto;background-color: rgb(252, 252, 252);border-radius: 5px;padding: 0 20px;">
+    <h3 style="width: 70%;margin: 0;">Result Configs:</h3>
+
     Toaster Config:
     <pre>{{toasterConfig|json}}</pre>
     Confirm Config:
