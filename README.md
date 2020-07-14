@@ -73,7 +73,7 @@ let toasterConfig: ToasterConfig = {
 ```
 *Note: Only Title is compulsory, rest configs are optional.*
  
-## basic usage of toaster:
+## Basic usage of toaster:
 
 ```
 let toasterRef = this.alertService.toaster(this.toasterConfig);
