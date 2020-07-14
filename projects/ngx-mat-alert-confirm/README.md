@@ -15,6 +15,10 @@
 * (`npm i angular-animations`) (bundled dependency, no need to install)  [https://github.com/filipows/angular-animations](https://github.com/filipows/angular-animations).
 
 ## Getting Started
+Install
+```
+npm i ngx-mat-alert-confirm --save
+```
 Import NgxMatAlertConfirmModule and NgxMatAlertConfirmService
 ```
 import {
