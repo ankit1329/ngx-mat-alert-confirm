@@ -1,7 +1,7 @@
 
 # ngx-mat-alert-confirm
 
-## Compatible with Angular 7.x.x
+### Compatible with Angular 7.x.x
 
 ## ToDo
 * Add form fields with validations in confirm box dialogs.
@@ -43,7 +43,7 @@ Inject the service in your component's constructor `private  alertConfirmService
 
 
 
-### Toaster Config
+## Toaster Config
 Available config options: 
 ``` 
 let toasterConfig: ToasterConfig = {
@@ -73,7 +73,7 @@ let toasterConfig: ToasterConfig = {
 ```
 *Note: Only Title is compulsory, rest configs are optional.*
  
-### basic usage of toaster:
+## basic usage of toaster:
 
 ```
 let toasterRef = this.alertService.toaster(this.toasterConfig);
@@ -87,7 +87,7 @@ toasterRef.onAction().subscribe(() => {
 });
 ```
 
-### Confirm Box Config
+## Confirm Box Config
 Available config options: 
 ``` 
 confirmConfig: ConfirmConfig = {
@@ -115,7 +115,7 @@ buttonArr: Array < ConfirmButtonConfig > = [{
 ```
 *Note: Only Title is compulsory, rest configs are optional.*
 
-### Basic Usage of Confirm Alerts
+## Basic Usage of Confirm Alerts
 ```
 //Assign buttons in the confirmConfig
 this.confirmConfig.buttons = this.buttonArr;
@@ -129,7 +129,7 @@ dialogueRef.afterClosed().subscribe(confirmResult => {
 ```
 
 
-### Quick Usage Example
+## Quick Usage Example
 *Both Confirm Alerts and Toasters can be given small config objects inline and events like  afterDismissed, onAction, afterClosed can be left unhandled if no action is needed when toaster or confirm alert is closed by user action.*
 ```
 this.alertService.toaster({
