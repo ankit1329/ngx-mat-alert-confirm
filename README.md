@@ -3,6 +3,9 @@
 
 ### Compatible with Angular 7.x.x
 
+## Demo
+[https://ankit1329.github.io/ngx-mat-alert-confirm/](https://ankit1329.github.io/ngx-mat-alert-confirm/)
+
 ## ToDo
 * Add form fields with validations in confirm box dialogs.
 
