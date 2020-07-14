@@ -130,6 +130,7 @@ THE SOFTWARE.
 
 
 ngx-mat-alert-confirm
+MIT
 
 rxjs
 Apache-2.0
