@@ -1,10 +1,10 @@
 <div [style.width]="data.width||''" style="cursor: default;" (click)="closeOnClick($event)" (mouseenter)="pauseTimer() "
   (mouseleave)="resumeTimer()">
-  <div style="align-items: center;align-content: center;align-self: center;"
+  <div style="padding: 5px 5px;align-items: center;align-content: center;align-self: center;"
     [style.background-color]="data.backgroundColor">
     <button class="small-close-icon" mat-icon-button *ngIf="data.showCloseButton" (click)="closeSelf($event)"
       style="position: absolute;top: 0;right: 0;">
-      <mat-icon [color]="data.closeButtonColor=='primary'?'':data.closeButtonColor" style="font-size: 15px;">close
+      <mat-icon [color]="data.closeButtonColor=='accent'?'':data.closeButtonColor" style="font-size: 15px;">close
       </mat-icon>
     </button>
     <div style="display: flex;">
@@ -23,7 +23,7 @@
       <div *ngIf="data.showActionButton" (click)="closeWithAction()"
         style="align-items: center;align-content: center;align-self: center;">
         <button class="small-action-icon" mat-stroked-button style="position: relative;top: 10px"
-          [color]="data.actionButtonColor||'primary'">{{data.actionButtonText||'OK'}}</button>
+          [color]="data.actionButtonColor||'accent'">{{data.actionButtonText||'OK'}}</button>
       </div>
     </div>
   </div>

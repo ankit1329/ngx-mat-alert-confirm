@@ -19,16 +19,17 @@ import {
   MatProgressBarModule,
   MatInputModule,
   MatCheckboxModule,
-  MatSelectModule
+  MatSelectModule,
+  MatFormFieldModule
 } from '@angular/material';
 import {
   FormsModule,
   ReactiveFormsModule
 } from '@angular/forms';
 import {
-  NgxMatAlertConfirmService,
-  NgxMatAlertConfirmModule
-} from 'ngx-mat-alert-confirm';
+  NgxMatAlertConfirmModule,
+  NgxMatAlertConfirmService
+} from 'projects/ngx-mat-alert-confirm/src/public-api';
 
 @NgModule({
   declarations: [
@@ -47,7 +48,8 @@ import {
     MatInputModule,
     MatCheckboxModule,
     MatSelectModule,
-    NgxMatAlertConfirmModule
+    NgxMatAlertConfirmModule,
+    MatFormFieldModule
   ],
   providers: [NgxMatAlertConfirmService],
   bootstrap: [AppComponent]

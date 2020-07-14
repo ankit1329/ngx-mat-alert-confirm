@@ -6,7 +6,7 @@ import {
   ConfirmButtonConfig,
   ConfirmConfig,
   NgxMatAlertConfirmService
-} from 'ngx-mat-alert-confirm';
+} from 'projects/ngx-mat-alert-confirm/src/public-api';
 
 @Component({
   selector: 'mat-alert-confirm-root',
@@ -107,10 +107,10 @@ export class AppComponent {
     horizontalPosition: 'right',
     verticlePosition: 'top',
     width: 0,
-    backgroundColor: 'white',
-    textColor: '',
-    matIcon: '',
-    iconColor: '',
+    backgroundColor: undefined,
+    textColor: undefined,
+    matIcon: 'check',
+    iconColor: undefined,
     showProgressBar: true,
     progressBarColor: undefined,
     progressBarType: undefined,
@@ -118,9 +118,9 @@ export class AppComponent {
     closeOnClick: true,
     showCloseButton: true,
     closeButtonColor: undefined,
-    showActionButton: false,
-    actionButtonText: '',
-    actionButtonColor: undefined
+    showActionButton: true,
+    actionButtonText: 'close',
+    actionButtonColor: 'accent'
   }
 
   buttonArr: Array < ConfirmButtonConfig > = [{
@@ -137,7 +137,7 @@ export class AppComponent {
     message: 'This action cannot be reversed!',
     messageSize: 16,
     matIcon: 'access_alarm',
-    iconAnimation: 'shake',
+    iconAnimation: undefined,
     iconColor: '',
     buttons: [],
     disableClose: true,
