@@ -1,0 +1,13 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/ngx-mat-alert-confirm",
+  "lib": {
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "angular-animations": "angular-animations"
+    }
+  },"whitelistedNonPeerDependencies": [
+    "tslib",
+    "angular-animations"
+  ]
+}

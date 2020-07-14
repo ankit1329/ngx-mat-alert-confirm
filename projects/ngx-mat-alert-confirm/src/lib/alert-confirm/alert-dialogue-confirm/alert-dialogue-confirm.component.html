@@ -1,0 +1,375 @@
+  <div style="align-content: center;vertical-align: middle;text-align: center;align-items: center;align-self: center;">
+    <ng-container *ngIf="data.matIcon">
+      <ng-container [ngSwitch]="data.iconAnimation">
+        <div *ngSwitchCase="undefined">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+
+        <div *ngSwitchCase="'bounce'" [@bounce]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'flash'" [@flash]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'pulse'" [@pulse]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rubberBand'" [@rubberBand]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'shake'" [@shake]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'swing'" [@swing]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'tada'" [@tada]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'wobble'" [@wobble]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'jello'" [@jello]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'heartBeat'" [@heartBeat]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'headShake'" [@headShake]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceIn'" [@bounceIn]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceInDown'" [@bounceInDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceInLeft'" [@bounceInLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceInRight'" [@bounceInRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceInUp'" [@bounceInUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceOut'" [@bounceOut]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceOutDown'" [@bounceOutDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceOutLeft'" [@bounceOutLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceOutRight'" [@bounceOutRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'bounceOutUp'" [@bounceOutUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeIn'" [@fadeIn]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInDown'" [@fadeInDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInDownBig'" [@fadeInDownBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInLeft'" [@fadeInLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInLeftBig'" [@fadeInLeftBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInRight'" [@fadeInRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInRightBig'" [@fadeInRightBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInUp'" [@fadeInUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeInUpBig'" [@fadeInUpBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOut'" [@fadeOut]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutDown'" [@fadeOutDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutDownBig'" [@fadeOutDownBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutLeft'" [@fadeOutLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutLeftBig'" [@fadeOutLeftBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutRight'" [@fadeOutRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutRightBig'" [@fadeOutRightBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutUp'" [@fadeOutUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'fadeOutUpBig'" [@fadeOutUpBig]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'flip'" [@flip]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'flipInX'" [@flipInX]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'flipInY'" [@flipInY]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'flipOutX'" [@flipOutX]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'flipOutY'" [@flipOutY]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'lightSpeedIn'" [@lightSpeedIn]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'lightSpeedOut'" [@lightSpeedOut]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateIn'" [@rotateIn]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateInDownLeft'" [@rotateInDownLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateInDownRight'" [@rotateInDownRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateInUpLeft'" [@rotateInUpLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateInUpRight'" [@rotateInUpRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateOut'" [@rotateOut]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateOutDownLeft'" [@rotateOutDownLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateOutDownRight'" [@rotateOutDownRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateOutUpLeft'" [@rotateOutUpLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotateOutUpRight'" [@rotateOutUpRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideInUp'" [@slideInUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideInDown'" [@slideInDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideInLeft'" [@slideInLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideInRight'" [@slideInRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideOutUp'" [@slideOutUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideOutDown'" [@slideOutDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideOutLeft'" [@slideOutLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'slideOutRight'" [@slideOutRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomIn'" [@zoomIn]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomInDown'" [@zoomInDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomInLeft'" [@zoomInLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomInRight'" [@zoomInRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomInUp'" [@zoomInUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomOut'" [@zoomOut]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomOutDown'" [@zoomOutDown]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomOutLeft'" [@zoomOutLeft]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomOutRight'" [@zoomOutRight]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'zoomOutUp'" [@zoomOutUp]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'hinge'" [@hinge]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'jackInTheBox'" [@jackInTheBox]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rollIn'" [@rollIn]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rollOut'" [@rollOut]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'collapse'" [@collapse]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'rotate'" [@rotate]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+        <div *ngSwitchCase="'hueRotate'" [@hueRotate]="animationState">
+          <mat-icon style="font-size: 70px;position: relative;left: -22px;" [style.color]="data.iconColor">
+            {{data.matIcon}}</mat-icon>
+        </div>
+      </ng-container>
+
+
+    </ng-container>
+    <div style="font-weight: 500;" [style.font-size]="data.titleSize">{{data.title}}</div>
+    <div *ngIf="data.message" style="font-weight: 400;" [style.font-size]="data.messageSize" [innerHtml]="data.message">
+    </div>
+  </div>
+  <div style="display: flex;"
+    style="padding: 0 10px 10px 10px;align-content: center;vertical-align: middle;text-align: center;align-items: center;align-self: center;">
+    <ng-container *ngFor="let btn of data.buttons;let i = index;">
+      <button style="margin-right: 5px" *ngIf="!btn.type||btn.type=='basic'" [id]="btn.id" mat-button
+        [color]="btn.color" (click)="onButtonClick(btn.id)">
+        {{btn.text}}
+      </button>
+      <button style="margin-right: 5px" *ngIf="btn.type=='raised'" [id]="btn.id" mat-raised-button [color]="btn.color"
+        (click)="onButtonClick(btn.id)">
+        {{btn.text}}
+      </button>
+      <button style="margin-right: 5px" *ngIf="btn.type=='flat'" [id]="btn.id" mat-flat-button [color]="btn.color"
+        (click)="onButtonClick(btn.id)">
+        {{btn.text}}
+      </button>
+      <button style="margin-right: 5px" *ngIf="btn.type=='stroked'" [id]="btn.id" mat-stroked-button [color]="btn.color"
+        (click)="onButtonClick(btn.id)">
+        {{btn.text}}
+      </button>
+      <button style="margin-right: 5px" *ngIf="btn.type=='icon'" [id]="btn.id" mat-icon-button [color]="btn.color"
+        (click)="onButtonClick(btn.id)">
+        <mat-icon>{{btn.icon}}</mat-icon>
+      </button>
+      <button style="margin-right: 5px" *ngIf="btn.type=='fab'" [id]="btn.id" mat-fab [color]="btn.color"
+        (click)="onButtonClick(btn.id)">
+        <mat-icon *ngIf="btn.icon">{{btn.icon}}</mat-icon>
+        <ng-container *ngIf="!btn.icon">{{btn.text}}</ng-container>
+      </button>
+      <button style="margin-right: 5px" *ngIf="btn.type=='minifab'" [id]="btn.id" mat-mini-fab [color]="btn.color"
+        (click)="onButtonClick(btn.id)">
+        <mat-icon *ngIf="btn.icon">{{btn.icon}}</mat-icon>
+        <ng-container *ngIf="!btn.icon">{{btn.text}}</ng-container>
+      </button>
+    </ng-container>
+  </div>

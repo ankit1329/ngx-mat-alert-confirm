@@ -1,0 +1,17 @@
+{
+    "extends": "../tslint.json",
+    "rules": {
+        "directive-selector": [
+            true,
+            "attribute",
+            "mat-alert-confirm",
+            "camelCase"
+        ],
+        "component-selector": [
+            true,
+            "element",
+            "mat-alert-confirm",
+            "kebab-case"
+        ]
+    }
+}
