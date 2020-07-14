@@ -2,6 +2,9 @@ import {
   NgModule
 } from '@angular/core';
 import {
+  CommonModule
+} from '@angular/common';
+import {
   NgxMatAlertConfirmComponent
 } from './ngx-mat-alert-confirm.component';
 import {
@@ -10,9 +13,6 @@ import {
 import {
   AlertSnackbarToasterComponent
 } from './alert-confirm/alert-snackbar-toaster/alert-snackbar-toaster.component';
-import {
-  BrowserAnimationsModule
-} from '@angular/platform-browser/animations';
 import {
   FormsModule,
   ReactiveFormsModule
@@ -31,7 +31,7 @@ import {
 @NgModule({
   declarations: [NgxMatAlertConfirmComponent, AlertDialogueConfirmComponent, AlertSnackbarToasterComponent],
   imports: [
-    BrowserAnimationsModule,
+    CommonModule,
     FormsModule,
     ReactiveFormsModule,
     MatSnackBarModule,
