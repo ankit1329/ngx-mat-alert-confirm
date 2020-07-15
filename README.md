@@ -6,6 +6,9 @@
 ## Demo
 [https://ankit1329.github.io/ngx-mat-alert-confirm/](https://ankit1329.github.io/ngx-mat-alert-confirm/)
 
+![toaster.png](/src/assets/images/toaster.png?raw=true "Optional Title")
+![confirm-dialog.png](/src/assets/images/confirm-dialog.png?raw=true "Optional Title")
+
 ## ToDo
 * Add form fields with validations in confirm box dialogs.
 
