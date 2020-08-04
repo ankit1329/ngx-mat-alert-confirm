@@ -17,16 +17,14 @@ import {
   FormsModule,
   ReactiveFormsModule
 } from '@angular/forms';
-import {
-  MatSnackBarModule,
-  MatDialogModule,
-  MatIconModule,
-  MatButtonModule,
-  MatProgressBarModule,
-  MatInputModule,
-  MatCheckboxModule,
-  MatSelectModule
-} from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [NgxMatAlertConfirmComponent, AlertDialogueConfirmComponent, AlertSnackbarToasterComponent],

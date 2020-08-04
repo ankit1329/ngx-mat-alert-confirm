@@ -11,17 +11,15 @@ import {
 import {
   BrowserAnimationsModule
 } from '@angular/platform-browser/animations';
-import {
-  MatButtonModule,
-  MatIconModule,
-  MatSnackBarModule,
-  MatDialogModule,
-  MatProgressBarModule,
-  MatInputModule,
-  MatCheckboxModule,
-  MatSelectModule,
-  MatFormFieldModule
-} from '@angular/material';
+import { MatButtonModule } from '@angular/material/button';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatIconModule } from '@angular/material/icon';
+import { MatInputModule } from '@angular/material/input';
+import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 import {
   FormsModule,
   ReactiveFormsModule

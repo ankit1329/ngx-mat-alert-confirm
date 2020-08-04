@@ -1,11 +1,8 @@
 import {
   Injectable
 } from '@angular/core';
-import {
-  MatSnackBar,
-  MatSnackBarConfig,
-  MatDialog
-} from '@angular/material';
+import { MatDialog } from '@angular/material/dialog';
+import { MatSnackBar, MatSnackBarConfig } from '@angular/material/snack-bar';
 import {
   AlertSnackbarToasterComponent
 } from './alert-confirm/alert-snackbar-toaster/alert-snackbar-toaster.component';
