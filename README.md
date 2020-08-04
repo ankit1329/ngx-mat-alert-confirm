@@ -1,7 +1,16 @@
 
 # ngx-mat-alert-confirm
 
-### Compatible with Angular 7.x.x
+### Compatible with Angular 7+
+
+## Compatibility
+
+|Angular Version|Ngx-Mat-Alert-Confirm Version|
+|--|--|
+| v7.x.x | v7.0.0 |
+| v8.x.x | v8.0.1 |
+| v9.x.x | v9.0.1 |
+| v10.x.x | v10.0.2 |
 
 ## Demo
 [https://ankit1329.github.io/ngx-mat-alert-confirm/](https://ankit1329.github.io/ngx-mat-alert-confirm/)
