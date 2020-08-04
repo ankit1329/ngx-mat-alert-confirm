@@ -31,8 +31,7 @@
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
-            "scripts": [],
-            "es5BrowserSupport": true
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -153,13 +152,13 @@
           "options": {
             "tsConfig": "projects/ngx-mat-alert-confirm/tsconfig.lib.json",
             "project": "projects/ngx-mat-alert-confirm/ng-package.json"
-          }
-        ,          "configurations": {
+          },
+          "configurations": {
             "production": {
               "tsConfig": "projects/ngx-mat-alert-confirm/tsconfig.lib.prod.json"
             }
           }
-},
+        },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -183,5 +182,8 @@
       }
     }
   },
-  "defaultProject": "matAlertConfirmLibrary"
+  "defaultProject": "matAlertConfirmLibrary",
+  "cli": {
+    "analytics": false
+  }
 }

@@ -2,17 +2,18 @@
   "name": "ngx-mat-alert-confirm",
   "version": "9.0.0",
   "peerDependencies": {
-    "@angular/animations": "~9.1.12",
-    "@angular/cdk": "~9.2.4",
-    "@angular/common": "~9.1.12",
-    "@angular/core": "~9.1.12",
-    "@angular/forms": "~9.1.12",
-    "@angular/material": "^9.2.4"
+    "@angular/animations": "~10.0.7",
+    "@angular/cdk": "~10.1.2",
+    "@angular/common": "~10.0.7",
+    "@angular/core": "~10.0.7",
+    "@angular/forms": "~10.0.7",
+    "@angular/material": "^10.1.2"
 
   },
   "dependencies": {
     "angular-animations": "0.0.10"
-  },
+  ,    "tslib": "^2.0.0"
+},
   "description": "A highly customizable library for alerts and confirm messages using angular material components",
   "keywords": [
     "ng2",
